@@ -1,6 +1,27 @@
 {
+  "name": "cypress_talonro",
+  "version": "1.0.0",
+  "description": "cypress talonro",
+  "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craynafinal/cypress_talonro.git"
+  },
+  "keywords": [
+    "cypress",
+    "talonro"
+  ],
+  "author": "chaosdepot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craynafinal/cypress_talonro/issues"
+  },
+  "homepage": "https://github.com/craynafinal/cypress_talonro#readme",
+  "devDependencies": {
+    "cypress": "^3.1.5"
   },
   "dependencies": {
     "base-64": "^0.1.0",
