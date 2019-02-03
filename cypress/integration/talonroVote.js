@@ -14,9 +14,12 @@
   })
 })*/
 
+var base64 = require('base-64');
+
 describe('Test', function() {
   it('Test', function() {
     cy.visit('https://google.com')
+		cy.get('.gLFyf').type(base64.decode('dGVzdA=='))
   })
 })
 

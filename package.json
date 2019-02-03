@@ -21,10 +21,10 @@
   },
   "homepage": "https://github.com/craynafinal/cypress_talonro#readme",
   "devDependencies": {
-    "cypress": "^3.1.5"
+    "cypress": "^3.1.5",
+    "cypress-failed-email": "^1.1.0"
   },
   "dependencies": {
-    "base-64": "^0.1.0",
-    "cypress-failed-email": "^1.1.0"
+    "base-64": "^0.1.0"
   }
 }
