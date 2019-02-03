@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "cypress-failed-email": "^1.1.0"
+  }
+}
