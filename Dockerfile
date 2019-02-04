@@ -1,4 +1,4 @@
-FROM cypress/browser:chrome69
+FROM cypress/browsers:chrome69
 RUN node --version
 RUN npm --version
 WORKDIR /home/node/app
