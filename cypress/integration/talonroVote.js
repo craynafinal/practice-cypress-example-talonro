@@ -1,4 +1,4 @@
-/*describe('TalonRO Vote', function() {
+describe('TalonRO Vote', function() {
   it('Votes for captcha free ranking sites', function() {
     cy.clearCookies()
     cy.clearLocalStorage()
@@ -12,8 +12,16 @@
     cy.visit('http://www.xtremetop100.com/in.php?site=1132205111')
     cy.get('[type="submit"]').click()
   })
-})*/
+})
 
+describe('XtremeTop100 Vote', function() {
+	it('Open vote site manually and click button', function() {
+		cy.visit('http://www.xtremetop100.com/in.php?site=1132205111')
+    cy.get('[type="submit"]').click()
+	})
+})
+
+/*
 var base64 = require('base-64');
 
 describe('Test', function() {
@@ -22,4 +30,4 @@ describe('Test', function() {
 		cy.get('.gLFyf').type(base64.decode('dGVzdA=='))
   })
 })
-
+*/
